@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Target Number Finder</title>
+    <!-- Compiled and minified CSS -->
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+  	<!-- Compiled and minified JavaScript -->
+  	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script> -->
+  	<!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+	<div class="container">
+		<h1>Target Number Finder (combi)</h1>
+		<div class="row">
+			<div class="col s12">
+				<div class="card blue-grey darken-1">
+    				<div class="card-content white-text">
+    					<span class="card-title">Balistic Skill</span>
+						<a class="deep-orange darken-1 waves-effect waves-light btn"><div class="bSBox bSkill8 col s2">8</div></a>
+						<a class="deep-orange darken-1 waves-effect waves-light btn"><div class="bSBox bSkill9 col s2">9</div></a>
+						<a class="deep-orange darken-1 waves-effect waves-light btn"><div class="bSBox bSkill10 col s2">10</div></a>
+						<a class="deep-orange darken-1 waves-effect waves-light btn"><div class="bSBox bSkill11 col s2">11</div></a>
+						<a class="deep-orange darken-1 waves-effect waves-light btn"><div class="bSBox bSkill12 col s2">12</div></a>
+						<a class="deep-orange darken-1 waves-effect waves-light btn"><div class="bSBox bSkill13 col s2">13</div></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s12">
+				<div class="card blue-grey darken-1">
+    				<div class="card-content white-text">
+    					<span class="card-title">Range</span>
+    					<div class="row">
+							<a class="green darken-3 waves-effect waves-light btn"><div class="rBand1">0-8</div></a>
+							<a class="green darken-3 waves-effect waves-light btn"><div class="rBand2">8-16</div></a>
+							<a class="yellow darken-1 waves-effect waves-light btn"><div class="rBand3">16-32</div></a>
+							<a class="red darken-3 waves-effect waves-light btn"><div class="rBand4">32-48</div></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s12">
+				<div class="card blue-grey darken-1">
+    				<div class="card-content white-text">
+    					<span class="card-title">Cover</span>
+						<a class="red waves-effect waves-light btn"><div class="yes col s6">YES</div></a>
+						<a class="green waves-effect waves-light btn"><div class="no col s6">NO</div></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s12">
+				<div class="card blue-grey darken-1">
+    				<div class="card-content white-text">
+    					<span class="card-title">Special Equipment</span>
+						<div class="col s3">CH: camo</div>
+						<div class="col s3">TO: camo</div>
+						<div class="col s3">Mimetism</div>
+						<div class="col s3">ODD</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s12">
+				<div class="card blue-grey darken-1">
+    				<div class="card-content white-text">
+    					<span class="card-title">Bonus</span>
+						<div class="col s6">Fireteam: Core</div>
+						<div class="col s6">Targeted</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col s12">
+				<div class="card blue-grey darken-1">
+					<div class="card-content white-text">
+						<div class="row">
+							<span class="card-title">Target Number:</span>
+							<a class="btn btn-floating btn-large cyan pulse"><p id="finalResult"></p></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
